@@ -1,5 +1,5 @@
 # ROSCA
-This repository attempts the simulation of a ROSCA, but what is a ROSCA? Keep reading to find out more:
+This repository attempts the simulation of a ROSCA, but what is a ROSCA? If you already know what a ROSCA is then proceed to see [Implementation Plan] (https://github.com/guimar86/rosca/blob/main/plan.md), otherwise keep reading to find out more:
 
 A rotating savings and credit association (ROSCA) is a group of individuals who contribute money toward a common fund. All of the members take turns being lenders and borrowers with the ROSCA funds.
 
@@ -15,7 +15,7 @@ A rotating savings and credit association is a group of individuals who act as a
 
 For example, let’s say a group of 10 individuals come together to contribute to a ROSCA. Each member contributes $100 per month, and at the end of each month, one member is selected to withdraw the entire $1,000. 
 
-> There are no legal or financial consequences if a member fails to make their payment, so the role of social capital is crucial in ROSCAs. If new members want to join, they must either be recommended by an existing member or otherwise prove their creditworthiness to the ROSCA community.1
+> There are no legal or financial consequences if a member fails to make their payment, so the role of social capital is crucial in ROSCAs. If new members want to join, they must either be recommended by an existing member or otherwise prove their creditworthiness to the ROSCA community.
 
  ## How a ROSCA Works 
 
@@ -28,7 +28,7 @@ ROSCAs have appeared across the globe, including parts of South America, Africa,
 ## Types of ROSCAs
 ### Simple ROSCA
 
-In a simple ROSCA, each member contributes a predetermined amount to the fund. At each meeting, a different member will receive access to the pooled savings.3
+In a simple ROSCA, each member contributes a predetermined amount to the fund. At each meeting, a different member will receive access to the pooled savings
 
 For instance, the group organizer may access the funds first, and from there, the funds are distributed at random assignment. By the end, each member has received a one-time lump sum of their total monthly contributions. 
 
