@@ -1,0 +1,3 @@
+2022-08-20 13:54:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found (this database is empty); SQL statement:
+select customer0_.id as id1_0_, customer0_.email as email2_0_, customer0_.iban as iban3_0_, customer0_.name as name4_0_, customer0_.telephone as telephon5_0_ from customer customer0_ [42104-214]
