@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/customer/customer.iml" filepath="$PROJECT_DIR$/customer/customer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/rosca.iml" filepath="$PROJECT_DIR$/.idea/rosca.iml" />
     </modules>
   </component>
 </project>

@@ -12,12 +12,6 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="customer" target="18" />
-      <module name="rosca" target="18" />
     </bytecodeTargetLevel>
-  </component>
-  <component name="JavacSettings">
-    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="customer" options="" />
-    </option>
   </component>
 </project>
