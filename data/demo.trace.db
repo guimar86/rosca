@@ -1,0 +1,42 @@
+2022-08-21 22:03:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]group CASCADE "; expected "identifier"; SQL statement:
+drop table if exists group CASCADE  [42001-214]
+2022-08-21 22:03:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]group (id bigint not null, amount float not null, frequency integer, order varchar(255), primary key (id))"; expected "identifier"; SQL statement:
+create table group (id bigint not null, amount float not null, frequency integer, order varchar(255), primary key (id)) [42001-214]
+2022-08-21 22:03:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table customer add constraint fk_customers foreign key (group_id) references [*]group"; expected "identifier"; SQL statement:
+alter table customer add constraint fk_customers foreign key (group_id) references group [42001-214]
+2022-08-21 22:04:19 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]group CASCADE "; expected "identifier"; SQL statement:
+drop table if exists group CASCADE  [42001-214]
+2022-08-21 22:08:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table grupo (id bigint not null, amount float not null, frequency integer, [*]order varchar(255), primary key (id))"; expected "identifier"; SQL statement:
+create table grupo (id bigint not null, amount float not null, frequency integer, order varchar(255), primary key (id)) [42001-214]
+2022-08-21 22:08:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "GRUPO" not found; SQL statement:
+alter table customer add constraint fk_customers foreign key (group_id) references grupo [42102-214]
+2022-08-21 22:10:04 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]group CASCADE "; expected "identifier"; SQL statement:
+drop table if exists group CASCADE  [42001-214]
+2022-08-21 22:10:04 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]group (id bigint not null, amount float not null, frequency integer, order varchar(255), primary key (id))"; expected "identifier"; SQL statement:
+create table group (id bigint not null, amount float not null, frequency integer, order varchar(255), primary key (id)) [42001-214]
+2022-08-21 22:10:04 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table customer add constraint FK4ijgerke41m5bjim1n5vr8xfp foreign key (group_id) references [*]group"; expected "identifier"; SQL statement:
+alter table customer add constraint FK4ijgerke41m5bjim1n5vr8xfp foreign key (group_id) references group [42001-214]
+2022-08-21 22:10:04 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table customer add constraint fk_customers foreign key (grupo_id) references [*]group"; expected "identifier"; SQL statement:
+alter table customer add constraint fk_customers foreign key (grupo_id) references group [42001-214]
+2022-08-21 22:11:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]group CASCADE "; expected "identifier"; SQL statement:
+drop table if exists group CASCADE  [42001-214]
+2022-08-21 22:11:25 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table grupo (id bigint not null, amount float not null, frequency integer, [*]order varchar(255), primary key (id))"; expected "identifier"; SQL statement:
+create table grupo (id bigint not null, amount float not null, frequency integer, order varchar(255), primary key (id)) [42001-214]
+2022-08-21 22:11:25 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "GRUPO" not found; SQL statement:
+alter table customer add constraint FKqd0aos2mbw32843plytr014n2 foreign key (group_id) references grupo [42102-214]
+2022-08-21 22:11:25 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "GRUPO" not found; SQL statement:
+alter table customer add constraint fk_customers foreign key (grupo_id) references grupo [42102-214]
