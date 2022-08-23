@@ -18,6 +18,6 @@ In this project a **Simple Rosca** will be implemented. The folowing functionali
 This project will be developed in Java with Spring boot.
 
 ### Database
-Initially an H2 database will be used but it can be changed to an SQL or MySQL database.
+MySQL database on a docker instance
 
 
