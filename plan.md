@@ -18,6 +18,6 @@ In this project a **Simple Rosca** will be implemented. The folowing functionali
 This project will be developed in Java with Spring boot.
 
 ### Database
-MySQL database on a docker instance
+MySQL database on a docker instance!
 
 
