@@ -9,7 +9,7 @@ A rotating savings and credit association (ROSCA) is a group of individuals who 
 
 Keep reading to learn how these alternative financial vehicles work, as well as some pros and cons. 
 
-## Definition and Example of a Rotating Savings and Credit Association
+## Definition and Example of a Rotating Savings and Credit Association.
 
 A rotating savings and credit association is a group of individuals who act as an alternative financial institution. Each person contributes money toward a common fund, and the funds rotate through members at regular intervals. The member who borrows funds will eventually repay the debt back into the association so the next member can withdraw their funds, but the methods of borrowing and repaying may vary between associations. 
 
