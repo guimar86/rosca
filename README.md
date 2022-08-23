@@ -60,7 +60,7 @@ At the beginning of each meeting, members who haven’t received access to the m
     
  ## Pros Explained
 
-    -  _Alternative to banks_ : ROSCAs are common in developing economies. It’s a good alternative to traditional banking and lending institutions.2
+    -  Alternative to banks: ROSCAs are common in developing economies. It’s a good alternative to traditional banking and lending institutions.2
     - ** No interest payments ** : Members won’t have to make interest payments on the money they withdraw from the common fund. 
     - ** Minimal consequences for failure to pay **: Unlike borrowing money from a bank, there are no financial or legal consequences for failing to make payments to the group fund. 
     - Social benefits: A ROSCA is usually made up of members of the same community, so there are social benefits to participating in one. Members will often spend time eating, drinking, and networking together during the meetings. 
