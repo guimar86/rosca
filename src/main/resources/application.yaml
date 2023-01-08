@@ -1,0 +1,21 @@
+server:
+  port: 8082
+spring:
+  main:
+    web-application-type: servlet
+  datasource:
+    username: 'admin'
+    url: jdbc:postgresql://localhost:5432/roscas_db
+    password: 'Password1*'
+  jpa:
+    properties:
+      hibernate:
+        format_sql: 'true'
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: 'false'
+developer:
+  name: Renato Martins
+  email: guillenmartins@gmail.com
+  github: https://github.com/guimar86
