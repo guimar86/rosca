@@ -2,6 +2,7 @@ package com.kixikila.service.impl;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.kixikila.dto.ParticipantDto;
+import com.kixikila.exception.ParticipantNotFoundExeption;
 import com.kixikila.model.Participant;
 import com.kixikila.repository.ParticipantRepository;
 import org.springframework.stereotype.Service;
@@ -31,5 +32,10 @@ public class ParticipantService {
         return repository.findAll();
     }
 
+    public Participant findParticipant(long id){
+
+        return repository.findById(id)
+                .orElseThrow(()->new ParticipantNotFoundExeption(id));
+    }
 
 }
