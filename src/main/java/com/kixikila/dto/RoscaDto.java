@@ -12,7 +12,7 @@ import java.util.List;
 public class RoscaDto {
 
     private String name;
-    private List<Participant> participants;
+    private List<ParticipantDto> participants;
     private int contributionAmount;
     private int currentTurn;
 }

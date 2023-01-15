@@ -41,7 +41,7 @@ public class ParticipantController {
                 .body(participant);
     }
 
-    @GetMapping("/")
+    @GetMapping()
     public CollectionModel<EntityModel<Participant>> listParticipants() {
 
         List<EntityModel<Participant>> participants = participantService.participantList().stream().map(participantAssembler::toModel).collect(Collectors.toList());

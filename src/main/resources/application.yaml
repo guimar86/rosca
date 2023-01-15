@@ -1,8 +1,6 @@
 server:
   port: 8082
 spring:
-  main:
-    web-application-type: servlet
   datasource:
     username: 'admin'
     url: jdbc:postgresql://localhost:5432/roscas_db
@@ -19,3 +17,6 @@ developer:
   name: Renato Martins
   email: guillenmartins@gmail.com
   github: https://github.com/guimar86
+springdoc:
+  swagger-ui:
+    path: '/swagger-ui.html'

@@ -1,4 +1,5 @@
 package com.kixikila.service.impl;
+
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.kixikila.dto.RoscaDto;
 import com.kixikila.model.Participant;
@@ -6,6 +7,9 @@ import com.kixikila.model.Rosca;
 import com.kixikila.repository.RoscaRepository;
 import com.kixikila.service.IRosca;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
+import java.util.Optional;
 
 @Service
 public class RoscaService implements IRosca {
@@ -16,11 +20,21 @@ public class RoscaService implements IRosca {
         this.repository = roscaRepository;
     }
 
-    public Rosca createRosca(RoscaDto roscaDto){
+    public Rosca createRosca(RoscaDto roscaDto) {
 
-        ObjectMapper mapper=new ObjectMapper();
-        Rosca rosca= mapper.convertValue(roscaDto,Rosca.class);
+        ObjectMapper mapper = new ObjectMapper();
+        Rosca rosca = mapper.convertValue(roscaDto, Rosca.class);
         return repository.save(rosca);
+    }
+
+    public List<Rosca> listRosca() {
+
+        return repository.findAll();
+    }
+
+    public Optional<Rosca> findRosca(long id) {
+
+        return repository.findById(id);
     }
 
     @Override
@@ -31,7 +45,7 @@ public class RoscaService implements IRosca {
 
     @Override
     public Participant getNextParticipant(Rosca rosca) {
-        Participant nextParticipant =rosca.getParticipants().get(rosca.getCurrentTurn());
+        Participant nextParticipant = rosca.getParticipants().get(rosca.getCurrentTurn());
         var turn = (rosca.getCurrentTurn() + 1) % rosca.getParticipants().size();
         rosca.setCurrentTurn(turn); //save to database
         return nextParticipant;
