@@ -1,6 +1,5 @@
 package com.kixikila.controller;
 
-
 import com.kixikila.dto.ParticipantAssembler;
 import com.kixikila.dto.ParticipantDto;
 import com.kixikila.model.Participant;
@@ -29,13 +28,10 @@ public class ParticipantController {
         this.participantAssembler = participantAssembler;
     }
 
-
     @PostMapping("")
-    public ResponseEntity<?> createParticipant(@RequestBody
-                                         ParticipantDto participantDto) {
+    public ResponseEntity<?> createParticipant(@RequestBody ParticipantDto participantDto) {
 
-
-        var participant= participantAssembler.toModel(participantService.createParticipant(participantDto));
+        var participant = participantAssembler.toModel(participantService.createParticipant(participantDto));
         return ResponseEntity
                 .created(participant.getRequiredLink(IanaLinkRelations.SELF).toUri())
                 .body(participant);
@@ -44,7 +40,8 @@ public class ParticipantController {
     @GetMapping()
     public CollectionModel<EntityModel<Participant>> listParticipants() {
 
-        List<EntityModel<Participant>> participants = participantService.participantList().stream().map(participantAssembler::toModel).collect(Collectors.toList());
+        List<EntityModel<Participant>> participants = participantService.participantList().stream()
+                .map(participantAssembler::toModel).collect(Collectors.toList());
         return CollectionModel.of(participants,
                 linkTo(methodOn(ParticipantController.class).listParticipants()).withSelfRel());
     }
